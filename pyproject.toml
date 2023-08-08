@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ooo-dev-xml"
-version = "0.1.0"
+version = "0.1.1"
 description = "XML Utils for OooDev Project"
 authors = [":Barry-Thomas-Paul: Moss <vibrationoflife@protonmail.com>"]
 license = "MIT"
@@ -14,7 +14,7 @@ classifiers = [
     "Topic :: Office/Business",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
