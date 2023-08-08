@@ -1,0 +1,46 @@
+{
+    "terminal.integrated.shellIntegration.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSaveMode": "file"
+    },
+    "python.defaultInterpreterPath": "${workspaceRoot}/.venv/bin/python3",
+    "autoDocstring.docstringFormat": "google",
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            "titleBar.activeBackground": "#1e0124",
+            "titleBar.activeForeground": "#e49df4"
+        },
+        "[Default Dark+]": {
+            "titleBar.activeBackground": "#1e0124",
+            "titleBar.activeForeground": "#e49df4"
+        },
+        "[Visual Studio Dark]": {
+            "titleBar.activeBackground": "#1e0124",
+            "titleBar.activeForeground": "#e49df4"
+        }
+    },
+    "workbench.colorTheme": "Monokai",
+    "esbonio.sphinx.confDir": "${workspaceFolder}/docs",
+    "esbonio.server.enabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "kargs",
+        "lxml",
+        "odxml",
+        "ooodev",
+        "soffice",
+        "sourcery",
+        "XLST"
+    ],
+    "black-formatter.args": [
+        "--line-length",
+        "119"
+    ]
+}

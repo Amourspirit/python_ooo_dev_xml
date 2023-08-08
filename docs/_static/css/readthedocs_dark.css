@@ -1,0 +1,149 @@
+html[data-theme='dark'] .highlight .vm {
+    color: #605dc9 !important;
+}
+
+html[data-theme='dark'] .highlight .gp {
+    color: #900 !important;
+}
+
+html[data-theme='dark'] .highlight .nf,
+.highlight .nc {
+    color: #0cff3e !important;
+}
+
+html[data-theme="dark"] .highlight .nb {
+    color: #2e9d1e !important;
+}
+
+html[data-theme='dark'].writer-html4 .rst-content dl:not(.docutils) .descclassname,
+html[data-theme='dark'].writer-html4 .rst-content dl:not(.docutils) .descname,
+html[data-theme='dark'].writer-html4 .rst-content dl:not(.docutils) .sig-name,
+html[data-theme='dark'].writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple) .descclassname,
+html[data-theme='dark'].writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple) .descname,
+html[data-theme='dark'].writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple) .sig-name {
+    color: #098f0d;
+}
+
+html[data-theme='dark'] .highlight .hll {
+    background-color: #184836;
+}
+
+html[data-theme='dark'] .highlight .nv {
+    color: #3a84f9;
+}
+
+html[data-theme='dark'] dl.py.class dd dl.py.method dd dl.field-list.simple dd.field-odd ul.simple li p a.reference.internal a:visited {
+    color: chartreuse;
+}
+
+html[data-theme='dark'] .lo-event a.reference.internal span.std-ref,
+html[data-theme='dark'] .lo-event a.reference.internal span.doc {
+    /* color: chartreuse; */
+    transition: all 0.2s ease-in-out;
+    font-weight: 700;
+    color: #cecece;
+    white-space: normal;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, Courier, monospace;
+    padding: 2px 5px;
+    background-color: #2d2d2d;
+    border: 1px solid #1c1c1c;
+    font-size: 75%;
+}
+
+
+/* Color for code in an admonition such as a Note or See Also */
+html[data-theme='dark'] .rst-content .admonition.seealso code,
+html[data-theme='dark'] .rst-content .admonition.note code {
+    background: #004a7b;
+}
+
+html[data-theme='dark'] .rst-content .admonition.attention code {
+    background: #803b00;
+}
+
+html[data-theme='dark'] .rst-content .admonition code.xref,
+html[data-theme='dark'] .rst-content .admonition tt.xref,
+html[data-theme='dark'] a .rst-content .admonition code,
+html[data-theme='dark'] a .rst-content .admonition tt {
+    color: #ffffff;
+}
+
+/* End Color for code */
+
+html[data-theme='dark'] .rst-content .invert img {
+    transition: all 0.2s ease-in-out;
+    -webkit-filter: invert(80%);
+    filter: invert(80%);
+}
+
+/* Start Summary Example for .. collapse Example sections */
+
+html[data-theme='dark'] .summary-example[open],
+html[data-theme='dark'] .rst-collapse[open] {
+    background-color: #1c1c1c;
+}
+
+/* End Summary Example for .. collapse Example sections */
+
+/* Start Summary Example for .. tabs sections */
+html[data-theme='dark'] .sphinx-tabs-panel {
+    border: 1px solid #42449f;
+    border-top-color: #1c1c1c;
+    background: #1c1c1c;
+}
+
+html[data-theme='dark'] .sphinx-tabs-tab[aria-selected="true"] {
+    border: 1px solid #42449f;
+    border-bottom-color: #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
+    background-color: #1c1c1c;
+}
+
+html[data-theme='dark'] [role="tablist"] {
+    border-bottom: 1px solid #42449f;
+}
+
+/* End Summary Example for .. tabs sections */
+
+html[data-theme='dark'] .rst-content code,
+html[data-theme='dark'] .rst-content tt,
+html[data-theme='dark'] code {
+    background-color: #1a1a1a !important;
+    border-color: #262626 !important;
+}
+
+html[data-theme='dark'] .rst-content code.literal:not(a code),
+html[data-theme='dark'] .rst-content tt.literal:not(a code) {
+    color: #cecece;
+}
+
+html[data-theme='dark'].writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple) dl:not(.option-list):not(.field-list):not(.footnote):not(.citation):not(.glossary):not(.simple)>dt {
+    /* This is a fix for theme.css overriding dark.css. Added Feb 27, 2023 */
+    margin-bottom: 6px;
+    border: none;
+    border-left: 3px solid #303030;
+    background: #0b0b0b;
+    color: #959595;
+}
+
+
+/* start sphinx_design extension */
+html[data-theme='dark'] {
+    /* overides for sphinx_design extension colors */
+    --sd-color-black: white;
+    --sd-color-white: black;
+
+    /* Overides for custom colors */
+    --t-color-black: white;
+    --t-color-white: black;
+
+    /* overrides for readthedocs dark theme */
+    --dark-link-color: #83caff;
+    --t-color-see-also: #101010;
+    --t-color-see-title: #004a7b;
+    --t-color-note-title: #004a7b;
+    --t-color-attention: #101010;
+    --t-color-attention-title: #803b00;
+}
+
+/* end sphinx_design extension */

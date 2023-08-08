@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "ooo-dev-xml"
+version = "0.1.0"
+description = "XML Utils for OooDev Project"
+authors = [":Barry-Thomas-Paul: Moss <vibrationoflife@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ooodev_xml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ooo-dev-tools = "^0.11.15"
+lxml = "^4.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+ruff = "^0.0.282"
+oooenv = "^0.2.2"
+
+
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^6.2"
+sphinx-toolbox = ">=3.2.0"
+sphinx-tabs = ">=3.4.1"
+sphinx-rtd-dark-mode = ">=1.2.4"
+sphinx-autodoc-typehints = "1.19.4"
+sphinxcontrib-spelling = "^8.0.0"
+sphinxcontrib-apidoc = "^0.3.0"
+esbonio = ">=0.16.1"
+sphinx-substitution-extensions = ">=2022.2.16"
+sphinx-copybutton = "^0.5.2"
+sphinx-design = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "pypi-test"
+url = "https://test.pypi.org/legacy/"
+priority = "supplemental"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
