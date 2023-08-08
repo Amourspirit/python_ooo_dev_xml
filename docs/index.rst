@@ -11,10 +11,21 @@ This project adds extra XML support for |ooodev|_.
 This project uses lxml_. Even though lxml_ is mature it compiles binaries.
 For this reason this XML support project is separate of the main project.
 
+Installation
+------------
+
+See PYPI_
+
+.. code-block:: bash
+
+   pip install ooo-dev-xml
+
+
+Table of Contents
+=================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    src/index
 
@@ -36,3 +47,5 @@ Indices and tables
 .. _ooodev: https://python-ooo-dev-tools.readthedocs.io/en/latest/index.html
 
 .. _lxml: https://pypi.org/project/lxml/
+
+.. _PYPI: https://pypi.org/project/ooo-dev-xml/
