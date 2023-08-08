@@ -5,7 +5,22 @@ description = "XML Utils for OooDev Project"
 authors = [":Barry-Thomas-Paul: Moss <vibrationoflife@protonmail.com>"]
 license = "MIT"
 readme = "README.md"
+keywords = ["ooodev", "libreoffice", "openoffice", "xml", "ooouno"]
+homepage = "https://github.com/Amourspirit/python_ooo_dev_xml"
+documentation = "https://ooo-dev-xml.readthedocs.io/en/latest/"
+repository = "https://github.com/Amourspirit/python_ooo_dev_xml"
 packages = [{include = "ooodev_xml"}]
+classifiers = [
+    "Topic :: Office/Business",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
