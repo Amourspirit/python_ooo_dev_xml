@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ooo-dev-xml"
-version = "0.1.0"
+version = "0.1.1"
 description = "XML Utils for OooDev Project"
 authors = [":Barry-Thomas-Paul: Moss <vibrationoflife@protonmail.com>"]
 license = "MIT"
@@ -23,16 +23,16 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-ooo-dev-tools = "^0.11.15"
-lxml = "^4.9.3"
+python = "^3.8"
+ooo-dev-tools = ">=0.12.2"
+lxml = ">=4.9.3"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
 black = "^23.7.0"
 ruff = "^0.0.282"
-oooenv = "^0.2.2"
+oooenv = ">=0.2.2"
 
 
 
